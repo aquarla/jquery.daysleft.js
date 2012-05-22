@@ -1,0 +1,9 @@
+指定日までの残り日数を表示するためのjQueryプラグインです。
+
+*使用例
+
+$(function(){
+    $("#daysleft").daysleft({
+        "date" : new Date(2012, 11-1, 21)
+    });
+});
