@@ -2,8 +2,11 @@
 
 *使用例
 
+<script type="text/javascript">
 $(function(){
     $("#daysleft").daysleft({
         "date" : new Date(2012, 11-1, 21)
     });
 });
+</script>
+締切りまで残り <span id="daysleft">-</span> 日です
